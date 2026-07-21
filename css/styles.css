@@ -1367,9 +1367,11 @@ button, input, select, textarea {
   background-color: var(--bg-subtle);
 }
 
-.contact-single-wrap {
-  max-width: 780px;
-  margin: 0 auto;
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 2.5rem;
+  align-items: stretch;
 }
 
 .contact-info-card {
